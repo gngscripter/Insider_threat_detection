@@ -1,0 +1,1736 @@
+{
+  "metrics": {
+    "total_users": 50,
+    "total_alerts": 2500,
+    "high_risk_count": 129,
+    "medium_risk_count": 2371,
+    "low_risk_count": 0,
+    "detection_accuracy": 0.85,
+    "mean_baseline_score": 0.297976589397634,
+    "mean_meta_score": 0.6151922926641515,
+    "mean_fused_score": 0.4565844410308928
+  },
+  "alerts": [
+    {
+      "alert_id": "ALR_00000054",
+      "user": "user_0001",
+      "date": "2023-01-05T00:00:00.000000000",
+      "baseline_score": 0.8499692151655919,
+      "meta_score": 0.610248522738145,
+      "fused_score": 0.7301088689518684,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-01-21T05:22:22.065753"
+    },
+    {
+      "alert_id": "ALR_00000033",
+      "user": "user_0000",
+      "date": "2023-02-03T00:00:00.000000000",
+      "baseline_score": 0.692067238985345,
+      "meta_score": 0.6438616641564087,
+      "fused_score": 0.6679644515708768,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065684"
+    },
+    {
+      "alert_id": "ALR_00000071",
+      "user": "user_0001",
+      "date": "2023-01-22T00:00:00.000000000",
+      "baseline_score": 0.6914888183515053,
+      "meta_score": 0.6296684960732636,
+      "fused_score": 0.6605786572123844,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065832"
+    },
+    {
+      "alert_id": "ALR_00000080",
+      "user": "user_0001",
+      "date": "2023-01-31T00:00:00.000000000",
+      "baseline_score": 0.5979021105266683,
+      "meta_score": 0.6355104814294135,
+      "fused_score": 0.6167062959780409,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065863"
+    },
+    {
+      "alert_id": "ALR_00000028",
+      "user": "user_0000",
+      "date": "2023-01-29T00:00:00.000000000",
+      "baseline_score": 0.582038000324442,
+      "meta_score": 0.6445307021094734,
+      "fused_score": 0.6132843512169577,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065667"
+    },
+    {
+      "alert_id": "ALR_00000001",
+      "user": "user_0000",
+      "date": "2023-01-02T00:00:00.000000000",
+      "baseline_score": 0.5626988492952113,
+      "meta_score": 0.6390055362758377,
+      "fused_score": 0.6008521927855245,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065575"
+    },
+    {
+      "alert_id": "ALR_00000093",
+      "user": "user_0001",
+      "date": "2023-02-13T00:00:00.000000000",
+      "baseline_score": 0.5644354720823125,
+      "meta_score": 0.6252870726018639,
+      "fused_score": 0.5948612723420882,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065905"
+    },
+    {
+      "alert_id": "ALR_00000021",
+      "user": "user_0000",
+      "date": "2023-01-22T00:00:00.000000000",
+      "baseline_score": 0.5305174152200016,
+      "meta_score": 0.6572168083151341,
+      "fused_score": 0.5938671117675678,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065645"
+    },
+    {
+      "alert_id": "ALR_00000019",
+      "user": "user_0000",
+      "date": "2023-01-20T00:00:00.000000000",
+      "baseline_score": 0.5319944013726243,
+      "meta_score": 0.6537929235673702,
+      "fused_score": 0.5928936624699972,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065639"
+    },
+    {
+      "alert_id": "ALR_00000045",
+      "user": "user_0000",
+      "date": "2023-02-15T00:00:00.000000000",
+      "baseline_score": 0.5387491086691608,
+      "meta_score": 0.6423751077152676,
+      "fused_score": 0.5905621081922142,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065724"
+    },
+    {
+      "alert_id": "ALR_00000027",
+      "user": "user_0000",
+      "date": "2023-01-28T00:00:00.000000000",
+      "baseline_score": 0.5243096861253876,
+      "meta_score": 0.6462927178369946,
+      "fused_score": 0.5853012019811912,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065664"
+    },
+    {
+      "alert_id": "ALR_00000025",
+      "user": "user_0000",
+      "date": "2023-01-26T00:00:00.000000000",
+      "baseline_score": 0.5104810556341105,
+      "meta_score": 0.6595444723247098,
+      "fused_score": 0.5850127639794102,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065658"
+    },
+    {
+      "alert_id": "ALR_00000075",
+      "user": "user_0001",
+      "date": "2023-01-26T00:00:00.000000000",
+      "baseline_score": 0.5284241646415436,
+      "meta_score": 0.6368854741084672,
+      "fused_score": 0.5826548193750054,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065846"
+    },
+    {
+      "alert_id": "ALR_00000042",
+      "user": "user_0000",
+      "date": "2023-02-12T00:00:00.000000000",
+      "baseline_score": 0.5348104725516386,
+      "meta_score": 0.630176823702201,
+      "fused_score": 0.5824936481269198,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065714"
+    },
+    {
+      "alert_id": "ALR_00000018",
+      "user": "user_0000",
+      "date": "2023-01-19T00:00:00.000000000",
+      "baseline_score": 0.5159907216615848,
+      "meta_score": 0.648384228969946,
+      "fused_score": 0.5821874753157654,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065636"
+    },
+    {
+      "alert_id": "ALR_00000044",
+      "user": "user_0000",
+      "date": "2023-02-14T00:00:00.000000000",
+      "baseline_score": 0.5169964851076326,
+      "meta_score": 0.6442278909313232,
+      "fused_score": 0.5806121880194779,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065720"
+    },
+    {
+      "alert_id": "ALR_00000035",
+      "user": "user_0000",
+      "date": "2023-02-05T00:00:00.000000000",
+      "baseline_score": 0.5220166040570435,
+      "meta_score": 0.6390827490287069,
+      "fused_score": 0.5805496765428753,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065690"
+    },
+    {
+      "alert_id": "ALR_00000067",
+      "user": "user_0001",
+      "date": "2023-01-18T00:00:00.000000000",
+      "baseline_score": 0.515228387138298,
+      "meta_score": 0.6429490405253379,
+      "fused_score": 0.5790887138318179,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065809"
+    },
+    {
+      "alert_id": "ALR_00000341",
+      "user": "user_0006",
+      "date": "2023-02-11T00:00:00.000000000",
+      "baseline_score": 0.5275916294951597,
+      "meta_score": 0.6267370209929238,
+      "fused_score": 0.5771643252440417,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.066821"
+    },
+    {
+      "alert_id": "ALR_00000032",
+      "user": "user_0000",
+      "date": "2023-02-02T00:00:00.000000000",
+      "baseline_score": 0.5194961139496205,
+      "meta_score": 0.6346359261072921,
+      "fused_score": 0.5770660200284563,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065680"
+    },
+    {
+      "alert_id": "ALR_00000004",
+      "user": "user_0000",
+      "date": "2023-01-05T00:00:00.000000000",
+      "baseline_score": 0.5403458606702031,
+      "meta_score": 0.610248522738145,
+      "fused_score": 0.575297191704174,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065589"
+    },
+    {
+      "alert_id": "ALR_00000097",
+      "user": "user_0001",
+      "date": "2023-02-17T00:00:00.000000000",
+      "baseline_score": 0.5090388241275767,
+      "meta_score": 0.6410444095652956,
+      "fused_score": 0.5750416168464362,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065918"
+    },
+    {
+      "alert_id": "ALR_00000073",
+      "user": "user_0001",
+      "date": "2023-01-24T00:00:00.000000000",
+      "baseline_score": 0.5131827722082198,
+      "meta_score": 0.6368259698272242,
+      "fused_score": 0.575004371017722,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065839"
+    },
+    {
+      "alert_id": "ALR_00000024",
+      "user": "user_0000",
+      "date": "2023-01-25T00:00:00.000000000",
+      "baseline_score": 0.4899991304352455,
+      "meta_score": 0.6572008368332131,
+      "fused_score": 0.5735999836342293,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065654"
+    },
+    {
+      "alert_id": "ALR_00000095",
+      "user": "user_0001",
+      "date": "2023-02-15T00:00:00.000000000",
+      "baseline_score": 0.5036841307030967,
+      "meta_score": 0.6283581075218008,
+      "fused_score": 0.5660211191124487,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065911"
+    },
+    {
+      "alert_id": "ALR_00000090",
+      "user": "user_0001",
+      "date": "2023-02-10T00:00:00.000000000",
+      "baseline_score": 0.5154799252963321,
+      "meta_score": 0.6133609663364072,
+      "fused_score": 0.5644204458163697,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065895"
+    },
+    {
+      "alert_id": "ALR_00000006",
+      "user": "user_0000",
+      "date": "2023-01-07T00:00:00.000000000",
+      "baseline_score": 0.512316584009688,
+      "meta_score": 0.6157228327816832,
+      "fused_score": 0.5640197083956856,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065596"
+    },
+    {
+      "alert_id": "ALR_00000098",
+      "user": "user_0001",
+      "date": "2023-02-18T00:00:00.000000000",
+      "baseline_score": 0.4827415396933088,
+      "meta_score": 0.6443886967838519,
+      "fused_score": 0.5635651182385804,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065921"
+    },
+    {
+      "alert_id": "ALR_00000069",
+      "user": "user_0001",
+      "date": "2023-01-20T00:00:00.000000000",
+      "baseline_score": 0.47942352563953755,
+      "meta_score": 0.6474077935385121,
+      "fused_score": 0.5634156595890248,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065820"
+    },
+    {
+      "alert_id": "ALR_00000008",
+      "user": "user_0000",
+      "date": "2023-01-09T00:00:00.000000000",
+      "baseline_score": 0.5083235655031889,
+      "meta_score": 0.6179141598245214,
+      "fused_score": 0.5631188626638551,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065602"
+    },
+    {
+      "alert_id": "ALR_00000082",
+      "user": "user_0001",
+      "date": "2023-02-02T00:00:00.000000000",
+      "baseline_score": 0.4951399361361854,
+      "meta_score": 0.6306683914055599,
+      "fused_score": 0.5629041637708726,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065869"
+    },
+    {
+      "alert_id": "ALR_00000040",
+      "user": "user_0000",
+      "date": "2023-02-10T00:00:00.000000000",
+      "baseline_score": 0.49422221749197415,
+      "meta_score": 0.6309319233416689,
+      "fused_score": 0.5625770704168216,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065707"
+    },
+    {
+      "alert_id": "ALR_00000000",
+      "user": "user_0000",
+      "date": "2023-01-01T00:00:00.000000000",
+      "baseline_score": 0.4662398124151337,
+      "meta_score": 0.6575427720078395,
+      "fused_score": 0.5618912922114866,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065559"
+    },
+    {
+      "alert_id": "ALR_00000065",
+      "user": "user_0001",
+      "date": "2023-01-16T00:00:00.000000000",
+      "baseline_score": 0.4594235568646236,
+      "meta_score": 0.6639039361729305,
+      "fused_score": 0.561663746518777,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065798"
+    },
+    {
+      "alert_id": "ALR_00000023",
+      "user": "user_0000",
+      "date": "2023-01-24T00:00:00.000000000",
+      "baseline_score": 0.461593025013721,
+      "meta_score": 0.6601176873768769,
+      "fused_score": 0.5608553561952989,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065651"
+    },
+    {
+      "alert_id": "ALR_00000010",
+      "user": "user_0000",
+      "date": "2023-01-11T00:00:00.000000000",
+      "baseline_score": 0.5015780900598511,
+      "meta_score": 0.6188785717718607,
+      "fused_score": 0.5602283309158559,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065609"
+    },
+    {
+      "alert_id": "ALR_00000009",
+      "user": "user_0000",
+      "date": "2023-01-10T00:00:00.000000000",
+      "baseline_score": 0.49960506819530126,
+      "meta_score": 0.6188785717718607,
+      "fused_score": 0.5592418199835809,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065606"
+    },
+    {
+      "alert_id": "ALR_00000005",
+      "user": "user_0000",
+      "date": "2023-01-06T00:00:00.000000000",
+      "baseline_score": 0.5008161346510174,
+      "meta_score": 0.614179400382281,
+      "fused_score": 0.5574977675166493,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065593"
+    },
+    {
+      "alert_id": "ALR_00000062",
+      "user": "user_0001",
+      "date": "2023-01-13T00:00:00.000000000",
+      "baseline_score": 0.5054280824144842,
+      "meta_score": 0.6091985185065496,
+      "fused_score": 0.5573133004605169,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065781"
+    },
+    {
+      "alert_id": "ALR_00000015",
+      "user": "user_0000",
+      "date": "2023-01-16T00:00:00.000000000",
+      "baseline_score": 0.44934998963877565,
+      "meta_score": 0.6627314585298332,
+      "fused_score": 0.5560407240843044,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065626"
+    },
+    {
+      "alert_id": "ALR_00000088",
+      "user": "user_0001",
+      "date": "2023-02-08T00:00:00.000000000",
+      "baseline_score": 0.49682062603422095,
+      "meta_score": 0.6145576155419762,
+      "fused_score": 0.5556891207880985,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065888"
+    },
+    {
+      "alert_id": "ALR_00000017",
+      "user": "user_0000",
+      "date": "2023-01-18T00:00:00.000000000",
+      "baseline_score": 0.45412264571359234,
+      "meta_score": 0.6554062577656162,
+      "fused_score": 0.5547644517396043,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065633"
+    },
+    {
+      "alert_id": "ALR_00000022",
+      "user": "user_0000",
+      "date": "2023-01-23T00:00:00.000000000",
+      "baseline_score": 0.4528363737222297,
+      "meta_score": 0.6564457789152696,
+      "fused_score": 0.5546410763187496,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065648"
+    },
+    {
+      "alert_id": "ALR_00000016",
+      "user": "user_0000",
+      "date": "2023-01-17T00:00:00.000000000",
+      "baseline_score": 0.4350231977795815,
+      "meta_score": 0.6676881174985341,
+      "fused_score": 0.5513556576390578,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065629"
+    },
+    {
+      "alert_id": "ALR_00001292",
+      "user": "user_0025",
+      "date": "2023-02-12T00:00:00.000000000",
+      "baseline_score": 0.48348660343431393,
+      "meta_score": 0.6190317518317396,
+      "fused_score": 0.5512591776330268,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.069779"
+    },
+    {
+      "alert_id": "ALR_00000077",
+      "user": "user_0001",
+      "date": "2023-01-28T00:00:00.000000000",
+      "baseline_score": 0.4597004621520922,
+      "meta_score": 0.6374994238837446,
+      "fused_score": 0.5485999430179184,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065853"
+    },
+    {
+      "alert_id": "ALR_00000560",
+      "user": "user_0011",
+      "date": "2023-01-11T00:00:00.000000000",
+      "baseline_score": 0.47761123648106946,
+      "meta_score": 0.6176019406736816,
+      "fused_score": 0.5476065885773755,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.067521"
+    },
+    {
+      "alert_id": "ALR_00000031",
+      "user": "user_0000",
+      "date": "2023-02-01T00:00:00.000000000",
+      "baseline_score": 0.4572061342570303,
+      "meta_score": 0.6344319557344282,
+      "fused_score": 0.5458190449957293,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065677"
+    },
+    {
+      "alert_id": "ALR_00000068",
+      "user": "user_0001",
+      "date": "2023-01-19T00:00:00.000000000",
+      "baseline_score": 0.44857991492957255,
+      "meta_score": 0.6422010978868067,
+      "fused_score": 0.5453905064081896,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065814"
+    },
+    {
+      "alert_id": "ALR_00000013",
+      "user": "user_0000",
+      "date": "2023-01-14T00:00:00.000000000",
+      "baseline_score": 0.47170146920773215,
+      "meta_score": 0.618950743501202,
+      "fused_score": 0.5453261063544671,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065620"
+    },
+    {
+      "alert_id": "ALR_00000064",
+      "user": "user_0001",
+      "date": "2023-01-15T00:00:00.000000000",
+      "baseline_score": 0.45018985488291047,
+      "meta_score": 0.6347822090340103,
+      "fused_score": 0.5424860319584603,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065792"
+    },
+    {
+      "alert_id": "ALR_00000030",
+      "user": "user_0000",
+      "date": "2023-01-31T00:00:00.000000000",
+      "baseline_score": 0.4510303731850249,
+      "meta_score": 0.6336630278071024,
+      "fused_score": 0.5423467004960636,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065674"
+    },
+    {
+      "alert_id": "ALR_00000070",
+      "user": "user_0001",
+      "date": "2023-01-21T00:00:00.000000000",
+      "baseline_score": 0.44993227991175105,
+      "meta_score": 0.6333493265557747,
+      "fused_score": 0.5416408032337628,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065826"
+    },
+    {
+      "alert_id": "ALR_00000036",
+      "user": "user_0000",
+      "date": "2023-02-06T00:00:00.000000000",
+      "baseline_score": 0.4478265409632766,
+      "meta_score": 0.6339104219213264,
+      "fused_score": 0.5408684814423015,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065693"
+    },
+    {
+      "alert_id": "ALR_00000050",
+      "user": "user_0001",
+      "date": "2023-01-01T00:00:00.000000000",
+      "baseline_score": 0.4194762044346336,
+      "meta_score": 0.6575427720078395,
+      "fused_score": 0.5385094882212366,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065740"
+    },
+    {
+      "alert_id": "ALR_00000037",
+      "user": "user_0000",
+      "date": "2023-02-07T00:00:00.000000000",
+      "baseline_score": 0.4421495962299368,
+      "meta_score": 0.6345216512006914,
+      "fused_score": 0.5383356237153141,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065696"
+    },
+    {
+      "alert_id": "ALR_00000012",
+      "user": "user_0000",
+      "date": "2023-01-13T00:00:00.000000000",
+      "baseline_score": 0.4501453291329723,
+      "meta_score": 0.6194799600973473,
+      "fused_score": 0.5348126446151598,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065616"
+    },
+    {
+      "alert_id": "ALR_00000066",
+      "user": "user_0001",
+      "date": "2023-01-17T00:00:00.000000000",
+      "baseline_score": 0.40806062984393154,
+      "meta_score": 0.6610878987958431,
+      "fused_score": 0.5345742643198873,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065803"
+    },
+    {
+      "alert_id": "ALR_00000063",
+      "user": "user_0001",
+      "date": "2023-01-14T00:00:00.000000000",
+      "baseline_score": 0.4511204807139373,
+      "meta_score": 0.6097148921496108,
+      "fused_score": 0.530417686431774,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065786"
+    },
+    {
+      "alert_id": "ALR_00000094",
+      "user": "user_0001",
+      "date": "2023-02-14T00:00:00.000000000",
+      "baseline_score": 0.4323408067154309,
+      "meta_score": 0.6279136478464579,
+      "fused_score": 0.5301272272809444,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065908"
+    },
+    {
+      "alert_id": "ALR_00000026",
+      "user": "user_0000",
+      "date": "2023-01-27T00:00:00.000000000",
+      "baseline_score": 0.39887309092381357,
+      "meta_score": 0.6541581859388726,
+      "fused_score": 0.5265156384313431,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065661"
+    },
+    {
+      "alert_id": "ALR_00000020",
+      "user": "user_0000",
+      "date": "2023-01-21T00:00:00.000000000",
+      "baseline_score": 0.39817800401902886,
+      "meta_score": 0.6528878577404937,
+      "fused_score": 0.5255329308797613,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065642"
+    },
+    {
+      "alert_id": "ALR_00000048",
+      "user": "user_0000",
+      "date": "2023-02-18T00:00:00.000000000",
+      "baseline_score": 0.41517646445295525,
+      "meta_score": 0.6352414140090343,
+      "fused_score": 0.5252089392309948,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065733"
+    },
+    {
+      "alert_id": "ALR_00001150",
+      "user": "user_0023",
+      "date": "2023-01-01T00:00:00.000000000",
+      "baseline_score": 0.3914474157323549,
+      "meta_score": 0.6575427720078395,
+      "fused_score": 0.5244950938700972,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.069360"
+    },
+    {
+      "alert_id": "ALR_00001235",
+      "user": "user_0024",
+      "date": "2023-02-05T00:00:00.000000000",
+      "baseline_score": 0.4242945390794935,
+      "meta_score": 0.6239197452875338,
+      "fused_score": 0.5241071421835136,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.069612"
+    },
+    {
+      "alert_id": "ALR_00002415",
+      "user": "user_0048",
+      "date": "2023-01-16T00:00:00.000000000",
+      "baseline_score": 0.3956924509294441,
+      "meta_score": 0.6492262993080322,
+      "fused_score": 0.5224593751187382,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.073528"
+    },
+    {
+      "alert_id": "ALR_00001984",
+      "user": "user_0039",
+      "date": "2023-02-04T00:00:00.000000000",
+      "baseline_score": 0.4220929956901503,
+      "meta_score": 0.6210711770734736,
+      "fused_score": 0.5215820863818119,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.071870"
+    },
+    {
+      "alert_id": "ALR_00000059",
+      "user": "user_0001",
+      "date": "2023-01-10T00:00:00.000000000",
+      "baseline_score": 0.43258464601390356,
+      "meta_score": 0.6100013445310241,
+      "fused_score": 0.5212929952724639,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065770"
+    },
+    {
+      "alert_id": "ALR_00000007",
+      "user": "user_0000",
+      "date": "2023-01-08T00:00:00.000000000",
+      "baseline_score": 0.42535736574793015,
+      "meta_score": 0.6157687327330043,
+      "fused_score": 0.5205630492404671,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065599"
+    },
+    {
+      "alert_id": "ALR_00000099",
+      "user": "user_0001",
+      "date": "2023-02-19T00:00:00.000000000",
+      "baseline_score": 0.39737445754958434,
+      "meta_score": 0.6414359059673506,
+      "fused_score": 0.5194051817584675,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065924"
+    },
+    {
+      "alert_id": "ALR_00000039",
+      "user": "user_0000",
+      "date": "2023-02-09T00:00:00.000000000",
+      "baseline_score": 0.4019447812008623,
+      "meta_score": 0.6342188669230456,
+      "fused_score": 0.518081824061954,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065703"
+    },
+    {
+      "alert_id": "ALR_00002296",
+      "user": "user_0045",
+      "date": "2023-02-16T00:00:00.000000000",
+      "baseline_score": 0.43186628249504816,
+      "meta_score": 0.6040013175753144,
+      "fused_score": 0.5179338000351813,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.072809"
+    },
+    {
+      "alert_id": "ALR_00000086",
+      "user": "user_0001",
+      "date": "2023-02-06T00:00:00.000000000",
+      "baseline_score": 0.411389825897214,
+      "meta_score": 0.6239764310200014,
+      "fused_score": 0.5176831284586078,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065882"
+    },
+    {
+      "alert_id": "ALR_00000046",
+      "user": "user_0000",
+      "date": "2023-02-16T00:00:00.000000000",
+      "baseline_score": 0.3955233481201581,
+      "meta_score": 0.6394374232788277,
+      "fused_score": 0.517480385699493,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065727"
+    },
+    {
+      "alert_id": "ALR_00000047",
+      "user": "user_0000",
+      "date": "2023-02-17T00:00:00.000000000",
+      "baseline_score": 0.3990814322491359,
+      "meta_score": 0.6354379458538347,
+      "fused_score": 0.5172596890514853,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065730"
+    },
+    {
+      "alert_id": "ALR_00000079",
+      "user": "user_0001",
+      "date": "2023-01-30T00:00:00.000000000",
+      "baseline_score": 0.4036719006823837,
+      "meta_score": 0.6308230773629548,
+      "fused_score": 0.5172474890226693,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065859"
+    },
+    {
+      "alert_id": "ALR_00000304",
+      "user": "user_0006",
+      "date": "2023-01-05T00:00:00.000000000",
+      "baseline_score": 0.41649682565930135,
+      "meta_score": 0.6176815709273981,
+      "fused_score": 0.5170891982933497,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.066710"
+    },
+    {
+      "alert_id": "ALR_00000014",
+      "user": "user_0000",
+      "date": "2023-01-15T00:00:00.000000000",
+      "baseline_score": 0.3824639344083079,
+      "meta_score": 0.6504692178255548,
+      "fused_score": 0.5164665761169314,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065623"
+    },
+    {
+      "alert_id": "ALR_00000061",
+      "user": "user_0001",
+      "date": "2023-01-12T00:00:00.000000000",
+      "baseline_score": 0.42280072950458863,
+      "meta_score": 0.6093630448092205,
+      "fused_score": 0.5160818871569046,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065776"
+    },
+    {
+      "alert_id": "ALR_00000109",
+      "user": "user_0002",
+      "date": "2023-01-10T00:00:00.000000000",
+      "baseline_score": 0.4225575817660708,
+      "meta_score": 0.6093630448092205,
+      "fused_score": 0.5159603132876457,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065958"
+    },
+    {
+      "alert_id": "ALR_00000072",
+      "user": "user_0001",
+      "date": "2023-01-23T00:00:00.000000000",
+      "baseline_score": 0.3997954099037055,
+      "meta_score": 0.6315470383245874,
+      "fused_score": 0.5156712241141465,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065835"
+    },
+    {
+      "alert_id": "ALR_00000034",
+      "user": "user_0000",
+      "date": "2023-02-04T00:00:00.000000000",
+      "baseline_score": 0.3867709711487944,
+      "meta_score": 0.6436384646383638,
+      "fused_score": 0.5152047178935791,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065687"
+    },
+    {
+      "alert_id": "ALR_00002458",
+      "user": "user_0049",
+      "date": "2023-01-09T00:00:00.000000000",
+      "baseline_score": 0.4102294592228708,
+      "meta_score": 0.6198691669082255,
+      "fused_score": 0.5150493130655481,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.073657"
+    },
+    {
+      "alert_id": "ALR_00000038",
+      "user": "user_0000",
+      "date": "2023-02-08T00:00:00.000000000",
+      "baseline_score": 0.39286413999301056,
+      "meta_score": 0.6359637106682196,
+      "fused_score": 0.514413925330615,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065699"
+    },
+    {
+      "alert_id": "ALR_00002016",
+      "user": "user_0040",
+      "date": "2023-01-17T00:00:00.000000000",
+      "baseline_score": 0.4168255246938059,
+      "meta_score": 0.6119127299366577,
+      "fused_score": 0.5143691273152318,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.071963"
+    },
+    {
+      "alert_id": "ALR_00000051",
+      "user": "user_0001",
+      "date": "2023-01-02T00:00:00.000000000",
+      "baseline_score": 0.38502405624870756,
+      "meta_score": 0.6425730212911663,
+      "fused_score": 0.513798538769937,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065743"
+    },
+    {
+      "alert_id": "ALR_00000041",
+      "user": "user_0000",
+      "date": "2023-02-11T00:00:00.000000000",
+      "baseline_score": 0.39575317187952247,
+      "meta_score": 0.631470298039902,
+      "fused_score": 0.5136117349597122,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065710"
+    },
+    {
+      "alert_id": "ALR_00002488",
+      "user": "user_0049",
+      "date": "2023-02-08T00:00:00.000000000",
+      "baseline_score": 0.4249286003048558,
+      "meta_score": 0.600987499292854,
+      "fused_score": 0.5129580497988548,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.073747"
+    },
+    {
+      "alert_id": "ALR_00001276",
+      "user": "user_0025",
+      "date": "2023-01-27T00:00:00.000000000",
+      "baseline_score": 0.41896336484811775,
+      "meta_score": 0.6066920619745556,
+      "fused_score": 0.5128277134113367,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.069731"
+    },
+    {
+      "alert_id": "ALR_00000415",
+      "user": "user_0008",
+      "date": "2023-01-16T00:00:00.000000000",
+      "baseline_score": 0.36735896272809626,
+      "meta_score": 0.6575477960523468,
+      "fused_score": 0.5124533793902215,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.067084"
+    },
+    {
+      "alert_id": "ALR_00000074",
+      "user": "user_0001",
+      "date": "2023-01-25T00:00:00.000000000",
+      "baseline_score": 0.3849621130861504,
+      "meta_score": 0.6383597211175102,
+      "fused_score": 0.5116609171018303,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065842"
+    },
+    {
+      "alert_id": "ALR_00000003",
+      "user": "user_0000",
+      "date": "2023-01-04T00:00:00.000000000",
+      "baseline_score": 0.4090068155133051,
+      "meta_score": 0.6128448843125901,
+      "fused_score": 0.5109258499129476,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065585"
+    },
+    {
+      "alert_id": "ALR_00000002",
+      "user": "user_0000",
+      "date": "2023-01-03T00:00:00.000000000",
+      "baseline_score": 0.40358295497300145,
+      "meta_score": 0.6181946487005832,
+      "fused_score": 0.5108888018367923,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065581"
+    },
+    {
+      "alert_id": "ALR_00000083",
+      "user": "user_0001",
+      "date": "2023-02-03T00:00:00.000000000",
+      "baseline_score": 0.392906958852072,
+      "meta_score": 0.6283672229613939,
+      "fused_score": 0.5106370909067329,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065872"
+    },
+    {
+      "alert_id": "ALR_00000057",
+      "user": "user_0001",
+      "date": "2023-01-08T00:00:00.000000000",
+      "baseline_score": 0.4114476085188024,
+      "meta_score": 0.6093148725135723,
+      "fused_score": 0.5103812405161874,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065763"
+    },
+    {
+      "alert_id": "ALR_00000052",
+      "user": "user_0001",
+      "date": "2023-01-03T00:00:00.000000000",
+      "baseline_score": 0.39564816178995993,
+      "meta_score": 0.6244858070179575,
+      "fused_score": 0.5100669844039587,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065746"
+    },
+    {
+      "alert_id": "ALR_00000085",
+      "user": "user_0001",
+      "date": "2023-02-05T00:00:00.000000000",
+      "baseline_score": 0.3928652007299734,
+      "meta_score": 0.6270745744459341,
+      "fused_score": 0.5099698875879537,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065879"
+    },
+    {
+      "alert_id": "ALR_00000658",
+      "user": "user_0013",
+      "date": "2023-01-09T00:00:00.000000000",
+      "baseline_score": 0.4010071644403736,
+      "meta_score": 0.6167706217853823,
+      "fused_score": 0.508888893112878,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.067810"
+    },
+    {
+      "alert_id": "ALR_00000914",
+      "user": "user_0018",
+      "date": "2023-01-15T00:00:00.000000000",
+      "baseline_score": 0.38692436981968054,
+      "meta_score": 0.6303432404842267,
+      "fused_score": 0.5086338051519537,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.068617"
+    },
+    {
+      "alert_id": "ALR_00000091",
+      "user": "user_0001",
+      "date": "2023-02-11T00:00:00.000000000",
+      "baseline_score": 0.39133305793503176,
+      "meta_score": 0.6250917279263931,
+      "fused_score": 0.5082123929307124,
+      "risk_level": "HIGH",
+      "timestamp": "2026-01-21T05:22:22.065898"
+    }
+  ],
+  "user_risks": [
+    {
+      "user": "user_0000",
+      "average_risk": 0.5503748518313408,
+      "peak_risk": 0.6679644515708768,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0001",
+      "average_risk": 0.5324411726549187,
+      "peak_risk": 0.7301088689518684,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0045",
+      "average_risk": 0.4625395496355546,
+      "peak_risk": 0.5179338000351813,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0006",
+      "average_risk": 0.46108781840556157,
+      "peak_risk": 0.5771643252440417,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0027",
+      "average_risk": 0.4595796430545115,
+      "peak_risk": 0.49656986441805856,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0025",
+      "average_risk": 0.45823534139193334,
+      "peak_risk": 0.5512591776330268,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0043",
+      "average_risk": 0.45802366091941127,
+      "peak_risk": 0.5054922834082087,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0040",
+      "average_risk": 0.4578227927892178,
+      "peak_risk": 0.5143691273152318,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0005",
+      "average_risk": 0.45733385160179224,
+      "peak_risk": 0.4893666359592145,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0013",
+      "average_risk": 0.4572566124312211,
+      "peak_risk": 0.508888893112878,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0046",
+      "average_risk": 0.45720023070746996,
+      "peak_risk": 0.5055744147883499,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0028",
+      "average_risk": 0.4569305089168448,
+      "peak_risk": 0.49277195978265326,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0049",
+      "average_risk": 0.4553353835740826,
+      "peak_risk": 0.5150493130655481,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0008",
+      "average_risk": 0.45510382978820263,
+      "peak_risk": 0.5124533793902215,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0033",
+      "average_risk": 0.4548312579891789,
+      "peak_risk": 0.5043093301453819,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0018",
+      "average_risk": 0.4548119953476759,
+      "peak_risk": 0.5086338051519537,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0003",
+      "average_risk": 0.4547918157706127,
+      "peak_risk": 0.507294587260031,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0038",
+      "average_risk": 0.45477379532579865,
+      "peak_risk": 0.4931808355111413,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0032",
+      "average_risk": 0.4543995171076144,
+      "peak_risk": 0.4986497382629035,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0011",
+      "average_risk": 0.4539282517779569,
+      "peak_risk": 0.5476065885773755,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0017",
+      "average_risk": 0.4535649619014365,
+      "peak_risk": 0.5031743070065161,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0020",
+      "average_risk": 0.4534744053806956,
+      "peak_risk": 0.5061686453924439,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0024",
+      "average_risk": 0.4529276721367074,
+      "peak_risk": 0.5241071421835136,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0019",
+      "average_risk": 0.45286717981565716,
+      "peak_risk": 0.5054051011181012,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0026",
+      "average_risk": 0.4528418717565177,
+      "peak_risk": 0.494040856029756,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0009",
+      "average_risk": 0.45255936680510395,
+      "peak_risk": 0.4965403194406677,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0002",
+      "average_risk": 0.4524502150978975,
+      "peak_risk": 0.5159603132876457,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0022",
+      "average_risk": 0.45213086383482654,
+      "peak_risk": 0.4875485928120864,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0035",
+      "average_risk": 0.45211130999620186,
+      "peak_risk": 0.4921869250223385,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0042",
+      "average_risk": 0.4520220993340777,
+      "peak_risk": 0.4989643996815635,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0015",
+      "average_risk": 0.4514173476139531,
+      "peak_risk": 0.4987790688809234,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0031",
+      "average_risk": 0.45139394897251905,
+      "peak_risk": 0.49829146711600925,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0016",
+      "average_risk": 0.4512464872779591,
+      "peak_risk": 0.5044392767616602,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0039",
+      "average_risk": 0.45121551930178305,
+      "peak_risk": 0.5215820863818119,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0044",
+      "average_risk": 0.4509262426641236,
+      "peak_risk": 0.4948151313868373,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0023",
+      "average_risk": 0.4507191409143127,
+      "peak_risk": 0.5244950938700972,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0034",
+      "average_risk": 0.4506758950422268,
+      "peak_risk": 0.49356136552028074,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0010",
+      "average_risk": 0.45047529767968675,
+      "peak_risk": 0.49664102308129343,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0029",
+      "average_risk": 0.4504700778387371,
+      "peak_risk": 0.4967747982085312,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0007",
+      "average_risk": 0.4499061550452371,
+      "peak_risk": 0.49208894751497534,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0021",
+      "average_risk": 0.44978017087654243,
+      "peak_risk": 0.5005421546230249,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0030",
+      "average_risk": 0.4494897692316087,
+      "peak_risk": 0.48145659158834475,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0037",
+      "average_risk": 0.44938752387607844,
+      "peak_risk": 0.4926437806190833,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0036",
+      "average_risk": 0.4493541944336706,
+      "peak_risk": 0.4993826948401546,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0047",
+      "average_risk": 0.4493026342572918,
+      "peak_risk": 0.4976734406997877,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0012",
+      "average_risk": 0.44915595330706354,
+      "peak_risk": 0.502568685491466,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0048",
+      "average_risk": 0.4488798874698763,
+      "peak_risk": 0.5224593751187382,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0004",
+      "average_risk": 0.44778063897965564,
+      "peak_risk": 0.48788801876848864,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "user_0041",
+      "average_risk": 0.44704495235109204,
+      "peak_risk": 0.49566152245551864,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "user_0014",
+      "average_risk": 0.4468483873311982,
+      "peak_risk": 0.4865278538435962,
+      "last_alert_date": "2023-02-19T00:00:00.000000000",
+      "alert_count": 50,
+      "risk_trend": "increasing"
+    }
+  ],
+  "analytics": {
+    "time_series": [
+      {
+        "date": "2023-01-01T00:00:00.000000000",
+        "average_risk": 0.4736170306552555,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-02T00:00:00.000000000",
+        "average_risk": 0.46943318194622846,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-03T00:00:00.000000000",
+        "average_risk": 0.45988429541326453,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-04T00:00:00.000000000",
+        "average_risk": 0.4565441870527944,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-05T00:00:00.000000000",
+        "average_risk": 0.46240532715660854,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-06T00:00:00.000000000",
+        "average_risk": 0.4626384259281268,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-07T00:00:00.000000000",
+        "average_risk": 0.4565492471133013,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-08T00:00:00.000000000",
+        "average_risk": 0.4598714672324801,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-09T00:00:00.000000000",
+        "average_risk": 0.46093492595465585,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-10T00:00:00.000000000",
+        "average_risk": 0.4561469215493084,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-11T00:00:00.000000000",
+        "average_risk": 0.4577905103849631,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-12T00:00:00.000000000",
+        "average_risk": 0.4564071467247093,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-13T00:00:00.000000000",
+        "average_risk": 0.4559438077821597,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-14T00:00:00.000000000",
+        "average_risk": 0.45941973578672923,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-15T00:00:00.000000000",
+        "average_risk": 0.46470921473694204,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-16T00:00:00.000000000",
+        "average_risk": 0.4622244995547618,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-17T00:00:00.000000000",
+        "average_risk": 0.46058604136343256,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-18T00:00:00.000000000",
+        "average_risk": 0.45603802681416994,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-19T00:00:00.000000000",
+        "average_risk": 0.45452864524096503,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-20T00:00:00.000000000",
+        "average_risk": 0.4619364050692472,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-21T00:00:00.000000000",
+        "average_risk": 0.45216907168588727,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-22T00:00:00.000000000",
+        "average_risk": 0.45759352453220714,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-23T00:00:00.000000000",
+        "average_risk": 0.45287007906143034,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-24T00:00:00.000000000",
+        "average_risk": 0.4547621097230978,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-25T00:00:00.000000000",
+        "average_risk": 0.4481741282588077,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-26T00:00:00.000000000",
+        "average_risk": 0.45190593273155655,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-27T00:00:00.000000000",
+        "average_risk": 0.4562331925731349,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-28T00:00:00.000000000",
+        "average_risk": 0.45227999292127785,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-29T00:00:00.000000000",
+        "average_risk": 0.4526444690796471,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-30T00:00:00.000000000",
+        "average_risk": 0.4514094869786922,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-01-31T00:00:00.000000000",
+        "average_risk": 0.4578416794603503,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-01T00:00:00.000000000",
+        "average_risk": 0.45584409708902673,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-02T00:00:00.000000000",
+        "average_risk": 0.4560059348858325,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-03T00:00:00.000000000",
+        "average_risk": 0.45479906950569915,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-04T00:00:00.000000000",
+        "average_risk": 0.4531491868505496,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-05T00:00:00.000000000",
+        "average_risk": 0.45588780693428554,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-06T00:00:00.000000000",
+        "average_risk": 0.4537239604994579,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-07T00:00:00.000000000",
+        "average_risk": 0.4525319014057758,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-08T00:00:00.000000000",
+        "average_risk": 0.45232851487244136,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-09T00:00:00.000000000",
+        "average_risk": 0.45691721980868677,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-10T00:00:00.000000000",
+        "average_risk": 0.4573519819437796,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-11T00:00:00.000000000",
+        "average_risk": 0.45434961761481396,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-12T00:00:00.000000000",
+        "average_risk": 0.45764339811801563,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-13T00:00:00.000000000",
+        "average_risk": 0.45190982682428477,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-14T00:00:00.000000000",
+        "average_risk": 0.4521549309734644,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-15T00:00:00.000000000",
+        "average_risk": 0.4510528760216799,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-16T00:00:00.000000000",
+        "average_risk": 0.45338316103786874,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-17T00:00:00.000000000",
+        "average_risk": 0.4580832143603285,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-18T00:00:00.000000000",
+        "average_risk": 0.4530555598194046,
+        "alert_count": 50
+      },
+      {
+        "date": "2023-02-19T00:00:00.000000000",
+        "average_risk": 0.45355708251304927,
+        "alert_count": 50
+      }
+    ],
+    "top_users": [
+      {
+        "user": "user_0000",
+        "average_risk": 0.5503748518313408,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0001",
+        "average_risk": 0.5324411726549187,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0045",
+        "average_risk": 0.4625395496355546,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0006",
+        "average_risk": 0.46108781840556157,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0027",
+        "average_risk": 0.4595796430545115,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0025",
+        "average_risk": 0.45823534139193334,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0043",
+        "average_risk": 0.45802366091941127,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0040",
+        "average_risk": 0.4578227927892178,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0005",
+        "average_risk": 0.45733385160179224,
+        "alert_count": 50
+      },
+      {
+        "user": "user_0013",
+        "average_risk": 0.4572566124312211,
+        "alert_count": 50
+      }
+    ],
+    "risk_distribution": {
+      "CRITICAL": 1,
+      "HIGH": 128,
+      "MEDIUM": 2371,
+      "LOW": 0
+    },
+    "model_performance": {
+      "precision": 0.87,
+      "recall": 0.82,
+      "f1_score": 0.84,
+      "roc_auc": 0.91
+    }
+  },
+  "export_time": "2026-01-21T05:22:22.078741"
+}
