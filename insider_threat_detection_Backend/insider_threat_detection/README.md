@@ -411,5 +411,4 @@ Academic/Research Use Only
 
 For issues, questions, or improvements:
 1. Check the troubleshooting section
-2. Review the API documentation at http://localhost:8000/docs
-3. Examine the code comments for implementation details
+2. Examine the code comments for implementation details
